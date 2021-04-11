@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- activate Google Chrome Frame if Installed -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>TeW - Terrorism Web Visualizer</title>
+
+  <!-- seo meta stuff -->
+  <meta name="description" content="View and analyze world-wide terrorism data">
+  <meta name="author" content="Cristian Tudorache">
+
+  <!-- mobile meta -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="lib/images/favicon.png">
+
+  <link rel="stylesheet" href="master.css">
+</head>
+
+<body>
+  <header role="banner" class="Header">
+    <h1>TeW</h1>
+
+  </header>
+
+  <aside role="complementary" class="Sidebar">
+    <div class="Data">
+      <h2>Data</h2>
+      <nav class="Data-nav">
+        <a class="btn">created</a>
+        <a class="btn">dataset_id</a>
+        <a class="btn">id</a>
+        <a class="btn">public</a>
+        <a class="btn">title</a>
+        <a class="btn">count</a>
+      </nav>
+    </div>
+  </aside>
+
+  <div role="main" class="Editor">
+    <div class="Canvas">
+      <svg viewBox="0 0 616 381" preserveAspectRatio="xMinYMin" class="contour-chart" height="381">
+        <g transform="translate(0,0)">
+          <g vis-id="0">
+            <rect class="plot-area-background" x="110" width="491" height="334"></rect>
+          </g>
+          <g class="x axis" transform="translate(110,6)">
+            <g class="tick" style="opacity: 1;" transform="translate(0,316)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">United States</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,283)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">Russia</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,250)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">China</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,217)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">Germany</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,184)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">Canada</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,151)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">Australia</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,118)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">Great Britain</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,85)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">South Korea</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,52)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">France</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(0,19)">
+              <line x2="-6" y2="0"></line>
+              <text dy=".32em" style="text-anchor: end;" x="-12" y="0">Netherlands</text>
+            </g>
+            <path class="domain" d="M0,0H0V334H0"></path>
+          </g>
+          <g class="y axis" transform="translate(110,340)">
+            <g class="tick" style="opacity: 1;" transform="translate(0,0)">
+              <line y2="6" x2="0"></line>
+              <text dy=".71em" style="text-anchor: middle;" y="10" x="0">0</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(98.2,0)">
+              <line y2="6" x2="0"></line>
+              <text dy=".71em" style="text-anchor: middle;" y="10" x="0">300</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(196.4,0)">
+              <line y2="6" x2="0"></line>
+              <text dy=".71em" style="text-anchor: middle;" y="10" x="0">600</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(294.59999999999997,0)">
+              <line y2="6" x2="0"></line>
+              <text dy=".71em" style="text-anchor: middle;" y="10" x="0">900</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(392.8,0)">
+              <line y2="6" x2="0"></line>
+              <text dy=".71em" style="text-anchor: middle;" y="10" x="0">1.2k</text>
+            </g>
+            <g class="tick" style="opacity: 1;" transform="translate(491,0)">
+              <line y2="6" x2="0"></line>
+              <text dy=".71em" style="text-anchor: middle;" y="10" x="0">1.5k</text>
+            </g>
+            <path class="domain" d="M0,6V0H491V6"></path>
+            <text class="y axis-title" y="41" x="491" dx="-291.5" dy="-4" transform="rotate(0)">Total Medals</text>
+          </g>
+          <g vis-id="1" vis-type="bar" transform="translate(110,6)">
+            <g class="series s-1 Gold medals">
+              <rect class="bar tooltip-tracker" y="300.5" height="30" x="0.5" width="180.688"></rect>
+              <rect class="bar tooltip-tracker" y="267.5" height="30" x="0.5" width="76.596"></rect>
+              <rect class="bar tooltip-tracker" y="234.5" height="30" x="0.5" width="76.596"></rect>
+              <rect class="bar tooltip-tracker" y="201.5" height="30" x="0.5" width="72.99533333333333"></rect>
+              <rect class="bar tooltip-tracker" y="168.5" height="30" x="0.5" width="54.992000000000004"></rect>
+              <rect class="bar tooltip-tracker" y="135.5" height="30" x="0.5" width="53.355333333333334"></rect>
+              <rect class="bar tooltip-tracker" y="102.5" height="30" x="0.5" width="40.589333333333336"></rect>
+              <rect class="bar tooltip-tracker" y="69.5" height="30" x="0.5" width="36.00666666666667"></rect>
+              <rect class="bar tooltip-tracker" y="36.5" height="30" x="0.5" width="35.352"></rect>
+              <rect class="bar tooltip-tracker" y="3.5" height="30" x="0.5" width="33.06066666666666"></rect>
+            </g>
+            <g class="series s-2 Silver medals">
+              <rect class="bar tooltip-tracker" y="300.5" height="30" x="181.188" width="144.02666666666667"></rect>
+              <rect class="bar tooltip-tracker" y="267.5" height="30" x="77.096" width="72.34066666666668"></rect>
+              <rect class="bar tooltip-tracker" y="234.5" height="30" x="77.096" width="51.064"></rect>
+              <rect class="bar tooltip-tracker" y="201.5" height="30" x="73.49533333333333" width="59.902"></rect>
+              <rect class="bar tooltip-tracker" y="168.5" height="30" x="55.492000000000004" width="32.07866666666666"></rect>
+              <rect class="bar tooltip-tracker" y="135.5" height="30" x="53.855333333333334" width="73.97733333333333"></rect>
+              <rect class="bar tooltip-tracker" y="102.5" height="30" x="41.089333333333336" width="33.06066666666666"></rect>
+              <rect class="bar tooltip-tracker" y="69.5" height="30" x="36.50666666666667" width="30.442"></rect>
+              <rect class="bar tooltip-tracker" y="36.5" height="30" x="35.852" width="35.02466666666667"></rect>
+              <rect class="bar tooltip-tracker" y="3.5" height="30" x="33.56066666666666" width="44.19"></rect>
+            </g>
+            <g class="series s-3 Bronze medals">
+              <rect class="bar tooltip-tracker" y="300.5" height="30" x="325.2146666666667" width="104.74666666666667"></rect>
+              <rect class="bar tooltip-tracker" y="267.5" height="30" x="149.43666666666667" width="102.45533333333333"></rect>
+              <rect class="bar tooltip-tracker" y="234.5" height="30" x="128.16000000000003" width="45.82666666666667"></rect>
+              <rect class="bar tooltip-tracker" y="201.5" height="30" x="133.39733333333334" width="72.99533333333333"></rect>
+              <rect class="bar tooltip-tracker" y="168.5" height="30" x="87.57066666666667" width="34.04266666666666"></rect>
+              <rect class="bar tooltip-tracker" y="135.5" height="30" x="127.83266666666668" width="72.01333333333334"></rect>
+              <rect class="bar tooltip-tracker" y="102.5" height="30" x="74.14999999999999" width="31.751333333333335"></rect>
+              <rect class="bar tooltip-tracker" y="69.5" height="30" x="66.94866666666667" width="34.370000000000005"></rect>
+              <rect class="bar tooltip-tracker" y="36.5" height="30" x="70.87666666666667" width="33.715333333333334"></rect>
+              <rect class="bar tooltip-tracker" y="3.5" height="30" x="77.75066666666666" width="26.841333333333335"></rect>
+            </g>
+          </g>
+          <g vis-id="2" vis-type="legend" transform="translate(110,6)"></g>
+          <g vis-id="3" vis-type="tooltip" transform="translate(110,6)"></g>
+        </g>
+      </svg>
+
+      <svg viewBox="0 0 616 250" preserveAspectRatio="xMinYMin" class="contour-chart" height="250">
+        <g transform="translate(0,0)">
+          <g vis-id="1" vis-type="pie" transform="translate(0,0)">
+            <g class="pie-group" transform="translate(97.66666666666667,125)">
+              <path class="series arc tooltip-tracker s-1 Prod A palette-5" d="M5.980358535836242e-15,-97.66666666666667A97.66666666666667,97.66666666666667 0 0,1 57.40702630723155,-79.01399311728653L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-2 Prod B palette-5" d="M57.40702630723155,-79.01399311728653A97.66666666666667,97.66666666666667 0 0,1 92.88651975816,30.180659783953196L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-3 Prod C palette-5" d="M92.88651975816,30.180659783953196A97.66666666666667,97.66666666666667 0 0,1 -57.40702630723153,79.01399311728653L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-4 Prod D palette-5" d="M-57.40702630723153,79.01399311728653A97.66666666666667,97.66666666666667 0 0,1 -1.7941075607508724e-14,-97.66666666666667L0,0Z"></path>
+            </g>
+            <g class="pie-group" transform="translate(303,125)">
+              <path class="series arc tooltip-tracker s-1 Prod A palette-5" d="M5.980358535836242e-15,-97.66666666666667A97.66666666666667,97.66666666666667 0 0,1 92.88651975816,-30.180659783953196L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-2 Prod B palette-5" d="M92.88651975816,-30.180659783953196A97.66666666666667,97.66666666666667 0 0,1 57.40702630723155,79.01399311728653L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-3 Prod C palette-5" d="M57.40702630723155,79.01399311728653A97.66666666666667,97.66666666666667 0 0,1 -57.407026307231554,-79.01399311728653L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-4 Prod D palette-5" d="M-57.407026307231554,-79.01399311728653A97.66666666666667,97.66666666666667 0 0,1 -1.7941075607508724e-14,-97.66666666666667L0,0Z"></path>
+            </g>
+            <g class="pie-group" transform="translate(508.33333333333337,125)">
+              <path class="series arc tooltip-tracker s-1 Prod A palette-5" d="M5.980358535836242e-15,-97.66666666666667A97.66666666666667,97.66666666666667 0 0,1 20.306041803201197,95.53241567166835L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-2 Prod B palette-5" d="M20.306041803201197,95.53241567166835A97.66666666666667,97.66666666666667 0 0,1 -97.1316384476347,10.208946579140893L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-3 Prod C palette-5" d="M-97.1316384476347,10.208946579140893A97.66666666666667,97.66666666666667 0 0,1 -72.58047795495887,-65.35175588771513L0,0Z"></path>
+              <path class="series arc tooltip-tracker s-4 Prod D palette-5" d="M-72.58047795495887,-65.35175588771513A97.66666666666667,97.66666666666667 0 0,1 -1.7941075607508724e-14,-97.66666666666667L0,0Z"></path>
+            </g>
+          </g>
+          <g vis-id="2" vis-type="pieName" transform="translate(0,0)">
+            <text class="pie-name" x="102.66666666666667" text-anchor="middle" y="173.83333333333334">Germany</text>
+            <text class="pie-name" x="308" text-anchor="middle" y="173.83333333333334">France</text>
+            <text class="pie-name" x="513.3333333333334" text-anchor="middle" y="173.83333333333334">Spain</text>
+          </g>
+          <g vis-id="3" vis-type="legend" transform="translate(0,0)"></g>
+          <g vis-id="4" vis-type="tooltip" transform="translate(0,0)"></g>
+        </g>
+      </svg>
+    </div>
+  </div>
+
+  <footer role="contentinfo" class="Footer">
+
+  </footer>
+</body>
+
+</html>
